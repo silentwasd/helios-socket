@@ -1,0 +1,21 @@
+{
+  "name": "ai-socket",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "node --import=tsx index.ts"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.69.0",
+    "socket.io": "^4.8.1",
+    "socks-proxy-agent": "^8.0.4"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
